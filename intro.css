@@ -1,0 +1,47 @@
+.logo-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.logo-intro::before {
+  content: "";
+  position: absolute;
+  width: 65vw;
+  height: 8px;
+  background: linear-gradient(90deg, transparent, var(--orange), var(--yellow), transparent);
+  filter: blur(5px);
+  transform: translateX(-110vw) rotate(-8deg);
+  animation: intro-streak .48s cubic-bezier(.2,.8,.2,1) .08s forwards;
+}
+
+.logo-intro img {
+  width: min(420px, 68vw);
+  height: auto;
+  opacity: 0;
+  transform: translateX(-120vw) skewX(-10deg);
+  filter: blur(12px);
+  will-change: transform, filter, opacity;
+}
+
+.intro-active .brand { opacity: 0; }
+.brand { transition: opacity .18s ease; }
+.logo-intro.finished {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .28s ease;
+}
+
+@keyframes intro-streak {
+  45% { opacity: 1; }
+  100% { transform: translateX(110vw) rotate(-8deg); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-intro { display: none; }
+  .intro-active .brand { opacity: 1; }
+}

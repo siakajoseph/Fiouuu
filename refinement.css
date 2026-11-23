@@ -1,0 +1,145 @@
+/* FIOUUU — a restrained brand palette and an editorial, unnumbered layout. */
+:root {
+  --slate: #223047;
+  --accent-text: #b83c12;
+  --paper: #f7f8fa;
+}
+
+.hero {
+  background: radial-gradient(circle at 77% 45%, #fff 0, #f7f8fa 44%, #eef1f5 100%);
+}
+.hero h1 em { color: var(--accent-text); }
+.section h2 em { color: var(--slate); }
+.dark h2 em { color: #c0cadd; }
+.nav > .pill { background: var(--ink); color: white; }
+.nav > .pill:hover { background: var(--slate); }
+.hero-actions > .pill { background: var(--accent-text); color: white; }
+.hero-actions > .pill:hover { background: #96300e; }
+.text-link { text-decoration: underline; text-underline-offset: 5px; }
+.speed-lines { opacity: .36; }
+.impact-card:after { opacity: .6; }
+.hero-art:before { opacity: .65; }
+.cursor-glow { opacity: .45; }
+
+.marquee { background: var(--ink); color: #fff; }
+.marquee i { color: var(--orange); }
+.section-no { color: #566171; font-size: 13px; letter-spacing: .17em; }
+.section-no.light { color: #aeb9ca; }
+.work { background: var(--paper); }
+.values article { padding: 34px 28px; }
+.values b { margin: 0 0 14px; color: var(--ink); }
+.values p { margin: 0; font-size: 14px; }
+.intro-grid p, .work-head p, .services-head p, .method p { font-size: 16px; }
+.arrow-link { display: inline-block; padding: 10px 0 5px; border-color: #a4acb6; }
+.arrow-link:hover { color: var(--accent-text); }
+
+.service, .service:hover, .service.active {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 32px;
+  padding: 29px 0;
+  background: transparent;
+  transition: none;
+}
+.service h3 { color: #fff; }
+.service p { font-size: 14px; margin: 0; color: #b6bfce; }
+
+.project-b .project-visual {
+  background: linear-gradient(140deg, #273850, #101b2e);
+}
+.project-visual:before, .project-visual:after { opacity: .5; }
+.project-b .project-visual:before {
+  background: linear-gradient(90deg, transparent, #ff6a2a, #ffc43a, transparent);
+}
+.project-visual span { font-size: 12px; letter-spacing: .16em; }
+.project p { font-size: 14px; }
+
+/* Client work: actual product captures, clearly separated from editorial concepts. */
+.portfolio-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; align-items: baseline; margin: 0 0 24px; }
+.portfolio-heading h3 { font-size: clamp(23px, 3vw, 34px); margin: 0; letter-spacing: -.04em; }
+.portfolio-heading p { font-size: 14px; color: var(--muted); margin: 0; line-height: 1.6; }
+.client-projects { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px; align-items: start; }
+.client-project { min-width: 0; background: #fff; border: 1px solid #dfe3e8; border-radius: 10px; overflow: hidden; }
+.client-visual { aspect-ratio: 16 / 10; background: #e8ebef; border-bottom: 1px solid #dfe3e8; overflow: hidden; display: grid; place-items: center; }
+.client-visual img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.client-info { padding: 25px; }
+.client-info h3 { font-size: clamp(23px, 2.5vw, 29px); letter-spacing: -.04em; margin: 8px 0 10px; }
+.client-info p { color: var(--muted); margin: 0 0 15px; font-size: 15px; line-height: 1.65; }
+.client-info .portfolio-type { font-size: 12px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: #555f70; margin: 0; }
+.project-link { display: inline-block; color: var(--ink); border: 1px solid #c8cdd5; border-radius: 5px; padding: 10px 15px; font-size: 14px; font-weight: 700; }
+.project-link:hover { border-color: var(--ink); background: var(--ink); color: #fff; }
+.project-details summary { font-size: 14px; font-weight: 700; cursor: pointer; color: var(--ink); padding: 10px 0; }
+.screen-gallery { display: grid; gap: 13px; margin: 10px 0 16px; }
+.screen-gallery figure { margin: 0; }
+.screen-gallery img { display: block; width: 100%; height: auto; border: 1px solid #dfe3e8; border-radius: 6px; }
+.screen-gallery figcaption { font-size: 12px; color: var(--muted); margin-top: 5px; }
+.client-info .screen-note { font-size: 13px; color: #69707d; margin: 8px 0 0; }
+.concept-heading { margin-top: 82px; padding-top: 28px; border-top: 1px solid #d5d8dc; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: center; }
+.contact-phone { color: var(--ink); font-weight: 800; font-size: 16px; text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 760px) { .client-projects { grid-template-columns: 1fr; gap: 22px; } .client-info { padding: 20px; } .concept-heading { margin-top: 56px; } }
+
+/* Original editorial concepts: let the photographic compositions speak. */
+.project .project-photo {
+  display: block;
+  padding: 0;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  background: #dfe3e8;
+  border-radius: 8px;
+  isolation: isolate;
+}
+.project:first-child .project-photo { height: auto; aspect-ratio: 2 / 1; }
+.project-photo::before, .project-photo::after { content: none; }
+.project-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform .55s cubic-bezier(.22,.7,.25,1);
+}
+.project-photo span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 13px;
+  background: rgba(10,15,30,.9);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  letter-spacing: .12em;
+  font-weight: 700;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .project-photo:hover img { transform: scale(1.025); }
+}
+@media (max-width: 900px) {
+  .project:first-child .project-photo { aspect-ratio: 3 / 2; }
+}
+@media (max-width: 560px) {
+  .project-photo span { top: 12px; left: 12px; font-size: 11px; padding: 8px 10px; }
+}
+
+.method li { display: block; padding: 25px 0; }
+.method li b { color: var(--ink); }
+.cta {
+  background: linear-gradient(120deg, #e8edf3, #f5f7fa);
+  color: var(--ink);
+}
+.cta h2 em { color: var(--slate); }
+.cta p { color: #526071; font-size: 13px; letter-spacing: .18em; }
+.cta .pill-white { background: var(--accent-text); color: #fff; }
+.cta .pill-white:hover { background: #96300e; color: #fff; }
+.cta-streaks {
+  background: repeating-linear-gradient(165deg, transparent 0 45px, rgba(34,48,71,.06) 47px 52px, transparent 55px 95px);
+}
+
+@media (max-width: 900px) {
+  .service, .service:hover, .service.active { grid-template-columns: 1fr; gap: 10px; }
+  .service p { grid-column: auto; }
+}
+@media (max-width: 560px) {
+  .values article { padding: 25px 0; }
+  .service, .service:hover, .service.active { padding: 24px 0; }
+  .lead { font-size: 16px; }
+}
