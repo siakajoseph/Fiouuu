@@ -21,3 +21,7 @@ Contact : info@fiouuu.com · +225 01 41 00 05 03.
 - Offre SEO/GEO publiée dans le code de la page Digital & web, FAQ dédiée et ancres individuelles du portfolio.
 - `llms.txt` : résumé éditorial expérimental, non requis par OpenAI et sans garantie de citation.
 - Voir [SEO-GEO.md](SEO-GEO.md) pour les contrôles de production, la soumission des URL et la mesure. Ne pas déployer ce document interne sur le site public.
+
+## Lot 2 — AI Visibility
+
+Page commerciale statique `services/ai-visibility/index.html` avec trois tarifs indicatifs, FAQ, métadonnées, schéma Service et maillage. Le générateur conserve cette page et l’inclut dans le sitemap (sept URL). Le visuel original `assets/service-ai-visibility.webp` est fourni séparément ; le visuel existant est utilisé tant que le fichier n'est pas déposé. Les tarifs sont soumis à validation avant mise en production. Déployer aussi le nouveau sitemap et llms.txt.
