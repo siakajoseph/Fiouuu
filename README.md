@@ -25,3 +25,7 @@ Contact : info@fiouuu.com · +225 01 41 00 05 03.
 ## Lot 2 — AI Visibility
 
 Page commerciale statique `services/ai-visibility/index.html` avec trois tarifs indicatifs, FAQ, métadonnées, schéma Service et maillage. Le générateur conserve cette page et l’inclut dans le sitemap (sept URL). Le visuel original `assets/service-ai-visibility.webp` est fourni séparément ; le visuel existant est utilisé tant que le fichier n'est pas déposé. Les tarifs sont soumis à validation avant mise en production. Déployer aussi le nouveau sitemap et llms.txt.
+
+## Lot 3 — Journal FIOUUU
+
+Blog statique `blog/` avec quatre articles éditoriaux, maillage, métadonnées et BlogPosting JSON-LD. Déployer `blog/` et `blog.css` avec les fichiers habituels. Le sitemap comprend douze URL ; le générateur préserve le blog dans dist. Visuels conceptuels existants réutilisés. Les études de cas clients sont reportées jusqu'à réception du portefeuille complet.

@@ -47,3 +47,7 @@ llms.txt est expérimental ; il ne remplace ni robots.txt ni le contenu public i
 ## Lot 2 — AI Visibility
 
 Page `/services/ai-visibility/` créée, liée depuis l'accueil et Digital & web. Tarifs indicatifs proposés : Starter 150 000 FCFA, Business 350 000 FCFA, Premium 250 000 FCFA/mois. À valider avant publication ; les frais tiers sont distincts. Ajouter le visuel original fourni séparément au chemin `assets/service-ai-visibility.webp`. Le sitemap inclut désormais sept pages ; soumettre et inspecter la nouvelle URL après déploiement. Le visuel social reste celui déjà présent jusqu'à intégration du nouveau fichier. Les demandes de devis ouvrent le logiciel de messagerie, sans collecte serveur. Pas de résultats de référencement revendiqués.
+
+## Lot 3 — Journal FIOUUU
+
+Études de cas reportées à la demande du propriétaire jusqu'à ajout des nouvelles réalisations. Blog et quatre articles rédigés : référencement ChatGPT, prix d’un site web, boutique WhatsApp et identité visuelle. Maillage depuis l’accueil et AI Visibility, sitemap 12 URL, BlogPosting, aucune statistique ou prix de marché inventé. Après déploiement, vérifier les 12 URL, soumettre le sitemap et inspecter les articles. Aucune publication externe ou mise en production effectuée.
