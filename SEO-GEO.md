@@ -51,3 +51,7 @@ Page `/services/ai-visibility/` créée, liée depuis l'accueil et Digital & web
 ## Lot 3 — Journal FIOUUU
 
 Études de cas reportées à la demande du propriétaire jusqu'à ajout des nouvelles réalisations. Blog et quatre articles rédigés : référencement ChatGPT, prix d’un site web, boutique WhatsApp et identité visuelle. Maillage depuis l’accueil et AI Visibility, sitemap 12 URL, BlogPosting, aucune statistique ou prix de marché inventé. Après déploiement, vérifier les 12 URL, soumettre le sitemap et inspecter les articles. Aucune publication externe ou mise en production effectuée.
+
+## Lot 4 — Observatoire SEO/GEO
+
+Observatoire interne autonome : six plateformes, tests marque/découverte, mentions/citations/absences, taux, historique, mesures réelles, exports. Les données indisponibles sont distinctes de zéro. Stockage local ; aucun déploiement ni accès aux comptes. Les études de cas sont toujours reportées.

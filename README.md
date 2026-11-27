@@ -29,3 +29,7 @@ Page commerciale statique `services/ai-visibility/index.html` avec trois tarifs 
 ## Lot 3 — Journal FIOUUU
 
 Blog statique `blog/` avec quatre articles éditoriaux, maillage, métadonnées et BlogPosting JSON-LD. Déployer `blog/` et `blog.css` avec les fichiers habituels. Le sitemap comprend douze URL ; le générateur préserve le blog dans dist. Visuels conceptuels existants réutilisés. Les études de cas clients sont reportées jusqu'à réception du portefeuille complet.
+
+## Lot 4 — Observatoire SEO/GEO
+
+Outil interne `tools/visibility-dashboard/index.html`. Saisie manuelle des tests et mesures, filtres, historique, CSV, sauvegarde JSON et impression PDF. Ne pas publier tools/ sur le site. Aucun accès API ni données fictives.
