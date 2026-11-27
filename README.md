@@ -4,7 +4,7 @@ Site vitrine HTML/CSS/JavaScript de l'agence de communication FIOUUU à Abidjan.
 
 ## Déploiement cPanel
 
-Site statique : aucun PHP, serveur de compilation, ni base de données requis. Déposer `index.html`, les fichiers CSS et JS, `robots.txt`, `sitemap.xml`, `assets/` et `services/` dans la racine du domaine `fiouuu.com`. Préserver les sous-domaines clients et les règles d'hébergement existantes. Si la V9 a déjà été installée, retirer uniquement ses anciennes pages non utilisées après sauvegarde et vérification de leurs emplacements. Si elles ont été indexées, configurer des redirections pertinentes vers les pages ou sections existantes après vérification de la configuration Apache. Le générateur `build-services.mjs` permet de reconstruire les cinq pages et `dist/` avec `node build-services.mjs` ; il n'est pas nécessaire à l'hébergement.
+Site statique : aucun PHP, serveur de compilation, ni base de données requis. Déposer `index.html`, les fichiers CSS et JS, `robots.txt`, `sitemap.xml`, `llms.txt`, `assets/` et `services/` dans la racine du domaine `fiouuu.com`. Préserver les sous-domaines clients et les règles d'hébergement existantes. Si la V9 a déjà été installée, retirer uniquement ses anciennes pages non utilisées après sauvegarde et vérification de leurs emplacements. Si elles ont été indexées, configurer des redirections pertinentes vers les pages ou sections existantes après vérification de la configuration Apache. Le générateur `build-services.mjs` permet de reconstruire les cinq pages et `dist/` avec `node build-services.mjs` ; il n'est pas nécessaire à l'hébergement.
 
 ## Référencement
 
@@ -15,3 +15,9 @@ Site statique : aucun PHP, serveur de compilation, ni base de données requis. D
 - Google Search Console et Bing Webmaster Tools : vérifier le domaine et soumettre `https://fiouuu.com/sitemap.xml`. Google Business Profile : compléter la fiche réelle de l'agence si éligible. Aucun identifiant de vérification ou d'analytics fictif.
 
 Contact : info@fiouuu.com · +225 01 41 00 05 03.
+
+## SEO & AI Visibility — lot 1 (27 novembre 2026)
+
+- Offre SEO/GEO publiée dans le code de la page Digital & web, FAQ dédiée et ancres individuelles du portfolio.
+- `llms.txt` : résumé éditorial expérimental, non requis par OpenAI et sans garantie de citation.
+- Voir [SEO-GEO.md](SEO-GEO.md) pour les contrôles de production, la soumission des URL et la mesure. Ne pas déployer ce document interne sur le site public.
