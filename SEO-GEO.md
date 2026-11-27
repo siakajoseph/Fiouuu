@@ -55,3 +55,7 @@ Page `/services/ai-visibility/` créée, liée depuis l'accueil et Digital & web
 ## Lot 4 — Observatoire SEO/GEO
 
 Observatoire interne autonome : six plateformes, tests marque/découverte, mentions/citations/absences, taux, historique, mesures réelles, exports. Les données indisponibles sont distinctes de zéro. Stockage local ; aucun déploiement ni accès aux comptes. Les études de cas sont toujours reportées.
+
+## Lot 5 — Notoriété externe
+
+Kit préparé : `tools/external-visibility/README.md` et `registre-soumissions.csv`. OpenSEO, Windsor.ai et TinyFish à connecter ; Metricool installé mais FIOUUU non configurée. Vérifier l’éligibilité, les comptes existants, l’accès au site et les coordonnées avant les inscriptions. Pas d’inscription, de publication ni de dépense effectuée. Études de cas toujours reportées.

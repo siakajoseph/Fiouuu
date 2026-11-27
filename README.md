@@ -33,3 +33,7 @@ Blog statique `blog/` avec quatre articles éditoriaux, maillage, métadonnées 
 ## Lot 4 — Observatoire SEO/GEO
 
 Outil interne `tools/visibility-dashboard/index.html`. Saisie manuelle des tests et mesures, filtres, historique, CSV, sauvegarde JSON et impression PDF. Ne pas publier tools/ sur le site. Aucun accès API ni données fictives.
+
+## Lot 5 — Notoriété externe
+
+Kit d'inscription et registre dans `tools/external-visibility/`. Fiche FR/EN, catégories, liens de soumission, procédure de connexion des plugins et calendrier éditorial. Ne pas déployer tools/. Aucun compte ni fiche externe créé à ce stade.
